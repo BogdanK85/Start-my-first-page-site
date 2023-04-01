@@ -1,0 +1,187 @@
+header,
+footer {
+    background-color: #00e1ff;
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+    background-color: silver;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.post img {
+    margin: 20px;
+}
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-column {
+    flex: 50%;
+    margin: 20px;
+}
+
+.post-info {
+    color: grey;
+}
+
+.comment {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.author {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#sub-comment {
+    margin-left: 40px;
+}
+
+#menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+#menu1 ul {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+#menu1>ul::after {
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+
+#menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#menu1 ul li a {
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 40px;
+    line-height: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: rgb(255, 166, 0);
+}
+
+#menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 350px;
+    background: #40ca63;
+}
+
+#menu1 ul li:hover ul {
+    display: block;
+}
+
+#menu1 ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu1 ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+}
+
+#menu1 ul li ul li:first-child a {
+    border-top: 0px;
+}
+h3{
+    font-size: 35px;
+    margin: 0;
+}
+
+h3:hover {
+    color: rgb(136, 255, 0);
+    transition: all 0.3s ease 0s;
+    font-size: 50px;
+}
+
+img:hover {
+    border-radius: 100px;
+    transition: all 0.3s ease 0s;
+}
+
+h1 {
+font-size: 70px;
+margin: 1px;
+}
+
+h1:hover{
+color: rgb(0, 81, 255);
+transition: all 0.3s ease 0s;
+}
+
+
+
+
+.carousele {
+    margin: 10px;
+}
+
+.carousele div img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.description{
+    color: #ffe600;
+    background: #ff0000;
+    font-size: 25px;
+}
+.Our-client{
+    padding: 15px;
+    font-size: 20px;
+color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
